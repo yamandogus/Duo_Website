@@ -6,6 +6,11 @@
 
 .active{
     margin-right: 1.7rem;
+    font-weight: bolder!important;
+}
+
+.hvr-active:hover{
+    color: rgb(47, 0, 255)!important;
 }
 
 
@@ -138,7 +143,7 @@ img{
 }
 
 .bg-gradient-primary-to-secondary {
-    background: linear-gradient(45deg, #2937f0, #9f1ae2) !important;
+    background: linear-gradient(45deg, #2937f0, #1ae28f) !important;
 }
 
 .text-center{
@@ -297,7 +302,15 @@ height: 50px;
 .close{
     /* font-size: 2rem; */
     background: none!important;
-    border: none;
+    border: none;   
+}
+
+.closeIcon{
+    color: rgb(36, 18, 192);
+}
+
+.closeIcon:hover{
+    color: #e2381a;
 }
 
 span{
