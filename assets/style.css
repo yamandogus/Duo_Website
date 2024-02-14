@@ -1,0 +1,311 @@
+#mainNav{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #00af85!important;
+}
+
+.active{
+    margin-right: 1.7rem;
+}
+
+
+.shadow-sm{
+    box-shadow: 0.125rem;
+}
+
+.fixed-top{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.rounded-pill{
+    background-color: #0d6efd!important;
+    color: white!important;
+}
+
+.rounded-pill:hover{
+    background-color: #2864bd!important;
+}
+
+/*18.28 11.02.2024*/
+
+#mainNav .navbar-toggler{
+    height: 50px;
+    font-size: 0.875rem;
+    color: black;
+}
+
+.navbar-toggler-icon{
+    height: 3rem!important;
+    width: 1.5rem!important;
+}
+
+#mainNav .navbar-brand{
+    font-family: "Kanit", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.navbar-brand{
+    font-weight: 700!important;    
+}
+
+.navbar-brand:hover{
+    color: blue!important;
+}
+
+
+/*Kullanıcı kaydı button*/
+
+#registration::before{
+    content: "💬 ";
+}
+
+/*header / Iphone img*/ 
+
+
+.masthead{
+
+    padding-top: 9.5rem;
+    padding-bottom: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.app-badge{
+    height: 3rem;
+}
+
+
+@media(min-width: 1400px){
+    .masthead-device-mockup .device-wrapper {
+        max-width: 17rem;
+    }
+}
+
+@media(min-width: 1200px){
+    .masthead-device-mockup .device-wrapper {
+        max-width: 15rem;
+    }
+}
+
+@media(min-width: 992px){
+    .masthead-device-mockup .device-wrapper {
+        max-width: 17rem;
+        margin: 0 auto!important;
+    }
+}
+
+@media(min-width: 768px){
+    .masthead-device-mockup .device-wrapper {
+        max-width: 15rem;
+        margin: 0 auto!important;
+    }
+}
+
+@media(min-width: 576px){
+    .masthead-device-mockup .device-wrapper {
+        max-width: 12.5rem;
+    }
+}
+
+.z-1{
+    z-index: 1;
+}
+
+/*İMG*/
+
+img{
+    vertical-align: middle;
+}
+
+.iphone-img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+/*aside*/
+
+.aside{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.bg-gradient-primary-to-secondary {
+    background: linear-gradient(45deg, #2937f0, #9f1ae2) !important;
+}
+
+.text-center{
+    text-align: center!important;
+}
+
+
+/***********
+
+/*icons*/
+
+.icon-feature{
+    font-size: 3rem;
+}
+
+.text-gradient {
+    background: -webkit-linear-gradient(#2937f0, #1ae22b);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/***********
+
+
+/*section-2*/
+
+section{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.features{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.px-5 {
+    padding-right: 3rem!important;
+    padding-left: 3rem!important;
+}
+
+@media(min-width: 1400px){
+    .device-wrapper {
+        max-width: 17rem;
+    }
+}
+
+@media(min-width: 1200px){
+    .device-wrapper {
+        max-width: 15rem;
+    }
+}
+
+@media(min-width: 992px){
+    .device-wrapper {
+        max-width: 17rem;
+        margin: 0 auto!important;
+    }
+}
+
+@media(min-width: 768px){
+    .device-wrapper {
+        max-width: 15rem;
+        margin: 0 auto!important;
+    }
+}
+
+@media(min-width: 576px){
+   .device-wrapper {
+        max-width: 12.5rem;
+        margin: 0 auto!important;
+    }
+}
+
+
+/*circle*/
+
+@media (min-width: 768px){
+.col-md-6 {
+    flex: 0 0 auto;
+    width: 50%;
+}
+}
+
+@media (min-width: 576px){
+.px-sm-0 {
+    padding-right: 0!important;
+    padding-left: 0!important;
+}
+}
+
+.rounded-circle {
+    border-radius: 50%!important;
+}
+
+
+/*section-cta*/
+
+section.cta{
+    position: relative;
+    padding: 15rem 0;
+    background-image: url( https://source.unsplash.com/5g41N3uRPf8/1500x800);
+    background-position: center;
+    background-size: cover;
+}
+
+section.cta .cta-content {
+    position: relative;
+    z-index: 1;
+}
+
+.rounded-pill {
+    border-radius: var(--bs-border-radius-pill)!important;
+}
+
+.py-3 {
+    padding-top: 1rem!important;
+    padding-bottom: 1rem!important;
+}
+
+.px-4 {
+    padding-right: 1.5rem!important;
+    padding-left: 1.5rem!important;
+}
+
+section.cta:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+/*<!-- Modal -->*/
+
+.modal-header{
+    height: 5rem;
+}
+
+.btn-close-white{
+    position: fixed;
+}
+
+
+.custom-height-input{
+    height: 60px;
+}
+.btnStyle{
+height: 50px;
+
+}
+
+.close{
+    /* font-size: 2rem; */
+    background: none!important;
+    border: none;
+}
+
+span{
+    font-size: 2.5rem;
+    color: #bd8cee;
+}
+
+span:hover{
+    color: #fff;
+}
+
