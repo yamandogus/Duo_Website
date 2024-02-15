@@ -322,3 +322,8 @@ span:hover{
     color: #fff;
 }
 
+
+.rounded-circle{
+    height: 588px!important;
+    width: 588px!important;
+}
