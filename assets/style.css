@@ -4,6 +4,11 @@
     background-color: #00af85!important;
 }
 
+.duo-img{
+    width: 40px;
+    margin-right: 10px;
+}
+
 .active{
     margin-right: 1.7rem;
     font-weight: bolder!important;
@@ -63,14 +68,9 @@
 }
 
 
-/*Kullanıcı kaydı button*/
-
 #registration::before{
     content: "💬 ";
 }
-
-/*header / Iphone img*/ 
-
 
 .masthead{
 
@@ -222,10 +222,20 @@ section{
 
 /*circle*/
 
+.play-app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; 
+  }
+
 @media (min-width: 768px){
 .col-md-6 {
     flex: 0 0 auto;
     width: 50%;
+}
+.play-app{
+    flex-direction: row;
 }
 }
 
@@ -241,12 +251,16 @@ section{
 }
 
 
+.img-duo{
+    border-radius: 15px;
+    box-shadow: 7px 44px 20px -22px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
+}
 /*section-cta*/
 
 section.cta{
     position: relative;
-    padding: 15rem 0;
-    background-image: url( https://source.unsplash.com/5g41N3uRPf8/1500x800);
+    padding: 7rem 0;
+    background-image: url( "https://source.unsplash.com/5g41N3uRPf8/1500x800");
     background-position: center;
     background-size: cover;
 }
