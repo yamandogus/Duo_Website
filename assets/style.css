@@ -341,3 +341,51 @@ span:hover{
     height: 588px!important;
     width: 588px!important;
 }
+
+
+
+/*Yardım*/
+
+.bady-bg{
+    background-color: rgb(19,31,36);
+    color: white;
+    margin: 0;
+    padding: 6rem 0 0 0;
+    box-sizing: border-box;
+
+}
+.cont-1{
+    border-radius: 10px ; 
+    width: 50%;
+    margin: 0 auto;
+    padding: 0 50px;
+    border: 1px solid white;
+    padding-bottom: 20px;
+}
+
+.cont-1-a{
+    border-radius: 10px 0;
+    padding: 20px 1px;
+}
+
+.details-div{
+    border-radius: 5px;
+    border: 1px solid white;
+    padding: 10px;
+}
+details summary {
+    font-weight: bold; 
+    cursor: pointer;
+}
+
+details p {
+    margin-top: 10px; 
+}
+
+h3, p, summary {
+    line-height: 1.6; 
+}
+
+h3, summary{
+    color: rgb(73,192,248)!important;
+}
